@@ -1,4 +1,8 @@
-# Portfolio Tracker
+# Investment Portfolio Tracker
+
+Tracks a personal investment portfolio using the Trading212 API.
+
+Future plans: extend to integrate with other brokers, e.g. IBKR.
 
 ## Running infra locally
 
