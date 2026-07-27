@@ -1,0 +1,10 @@
+<Project>
+
+  <!-- Works around NETSDK1226 (missing package-pruning data for the .NET 10
+       preview SDK's shared framework resolution) — reproduces even on a bare
+       `dotnet new web`, unrelated to this repo's code. -->
+  <PropertyGroup>
+    <AllowMissingPrunePackageData>true</AllowMissingPrunePackageData>
+  </PropertyGroup>
+
+</Project>
